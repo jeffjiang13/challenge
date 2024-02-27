@@ -1,0 +1,19 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#chartContainer {
+    width: 80%; /* or any desired width */
+    margin: auto; /* center the chart container */
+}
+
+#priceChart {
+    display: block; /* prevents extra space below the canvas */
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 2; /* controls the chart aspect ratio, width:height */
+}
